@@ -2,9 +2,9 @@ age = int(input)
 def human(age) :
     if age <= 7 :
         return "в детский сад"
-    elif 7 <= age <=  16:
+    elif age <=  16:
         return "учись в школе"
-    elif 16 <=  age <= 25:
+    elif age <= 25:
         return "учись в институте"
     else:
         return "иди работай"
